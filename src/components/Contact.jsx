@@ -27,7 +27,7 @@ const Contact = () => {
             <CiLinkedin className="icons" />
           </a>
           <a href="https://leetcode.com/u/Nehal_Damor/" target="_blank" className="items">
-            <img src={`./dist/assets/${lt.imgSrc}`} alt="" className="icons-img"/>
+            <img src={`public/assets/${lt.imgSrc}`} alt="" className="icons-img"/>
           </a>
          
           <a

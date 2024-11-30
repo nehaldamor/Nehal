@@ -1,8 +1,7 @@
-import { defineConfig } from 'vite'; // Only import once
+import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Nehal/', 
+  base: '/Nehal/',  // Set base path for GitHub Pages
   plugins: [react()],
 });
